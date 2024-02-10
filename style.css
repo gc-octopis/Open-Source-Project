@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+nav {
+    width: 100vw;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    background-color: #101020aa;
+    font-weight: bold;
+    position: fixed;
+    z-index: 10;
+}
+
+nav h1 {
+    color: white;
+    font-size: 40px;
+}
+
+#top {
+    /* background-color: #304050; */
+    background-color: black;
+    color: white;
+    width: 100vw;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 0;
+}
+
+#top-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+
+.scrollingTextContainer {
+    font-family: monospace;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    word-wrap: break-word;
+    font-size: 20px;
+    color: #88CC88;
+    z-index: -1;
+    opacity: 20%;
+}
+
+#top h1 {
+    font-size: 40pt;
+    color: #00000000;
+    -webkit-text-stroke: 1px #AAAAAA;
+    text-shadow: 0 10pt 20pt #444444;
+}
+
+#search {
+    width: 40%;
+    height: 10%;
+    border-radius: 25px;
+    overflow: hidden;
+    position: relative;
+}
+
+#search-input {
+    width: 100%;
+    height: 60%;
+    box-sizing: border-box;
+    background-color: white;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    font-size: 15pt;
+    border: none;
+    outline: none;
+}
+
+#search-button {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 60%;
+    aspect-ratio: 1/1;;
+}
+
+#category {
+    width: 100%;
+    height: 40%;
+    box-sizing: border-box;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: gray;
+    overflow: hidden;
+    padding: 0 10px;
+}
+
+.category-item {
+    height: 75%;
+    padding: 10px;
+    /* border: 2px solid white; */
+    color: black;
+    background-color: gray;
+    scale: 1;
+    font-size: large;
+    /* text-shadow: 2px 2px 10px black; */
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 100ms ease-in-out;
+}
+
+.category-item:hover {
+    scale: 1.1;
+    color: black;
+    text-shadow: 2px 2px 10px white;
+    font-weight: bold;
+
+}
+
+section {
+    width: 100%;
+    padding: 5%;
+}
+
+#whatis {
+    background-color: rebeccapurple;
+    color: white;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #888;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
