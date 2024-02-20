@@ -1,0 +1,21 @@
+{
+    "apps": [
+        {
+            "name": "",
+            "iconPath": "",
+            "description": "",
+            "fullDescription": "",
+            "keywords": [],
+            "category": "",
+            "articleLink": "",
+            "websiteLink": "",
+            "screenshotPath": ""
+        },
+        {
+            "name": "WebBell",
+            "description": "an app to use bell system in web browser. you can either use it in your classroom/office's computer or at home.",
+            "keywords": ["web", "bell", "ring", "html", "javascript", "css", "browser"],
+            "category": "others"
+        }
+    ]
+}

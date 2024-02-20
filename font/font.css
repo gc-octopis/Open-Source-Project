@@ -1,0 +1,17 @@
+@font-face {
+    font-family: NotoSansTC;
+    src: url("font/NotoSansTC-Light.ttf");
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: NotoSansTC;
+    src: url("font/NotoSansTC-Regular.ttf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: NotoSansTC;
+    src: url("font/NotoSansTC-SemiBold.ttf");
+    font-weight: 600;
+}
